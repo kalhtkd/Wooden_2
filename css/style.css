@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+	--color-hover-menu:#FE8F01;
+	--color-principal:#3A3A3A;
+	--color-about-us: #F5F5F5;
+	--color-about-us-columnas:#494949;
+	--color-counter:#010101;
+}
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: #3d3d3d;
+	padding: 10px 0;
+}
+#hero h1{
+	font-size: 55px;
+	font-weight: 300;	
+}
+#hero p{
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: 5px;
+	margin-top: 25px;
+}
+#about-us{
+	background-color: var(--color-about-us);
+	padding: 5% 0;
+	color: #ffff;	
+}
+#about-us h3{
+	color: var(--color-principal);
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom:5%;	
+}
+.cuadro-gris{
+	background-color: var(--color-about-us-columnas);
+	padding: 30px;
+	text-align: center;
+}
+#about-us h5{
+	font-size: 35px;
+	margin: 20px 0;
+}
+#about-us i{
+	border: solid 4px #FFFFFF;
+	border-radius: 100%;
+	background-color: var(--color-hover-menu);
+	font-size: 45px;
+	padding:15px;
+}
+#counter{
+	background-color: var(--color-counter);
+	color: #391D17;
+	text-align: center;
+}
+#counter p{
+	color: var(--color-hover-menu);
+	font-size: 20px;
+	font-weight: 200;
+}
+#counter i{
+	color: #FFFFFF;
+	font-size: 40px;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+#counter h6{
+	font-size: 30px;
+	padding: 20px;
+	font-weight: 200;
+}
+footer{
+	background-color: #333333;
+	color: #391D17;
+	padding: 15px 0;
+	text-align: center;
+}
+
